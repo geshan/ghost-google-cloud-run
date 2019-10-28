@@ -14,6 +14,10 @@ docker-compose up
 
 Then go to your browser as `http://localhost:8080`
 
+#### Files
+
+Data folder with `content` and `images` is used as a volume to make adding posts/editing and image uploads work locally and keep it persisted.
+
 ### Run it on Google Cloud Run
 
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/cloudshell/editor?shellonly=true&cloudshell_image=gcr.io/cloudrun/button&cloudshell_git_repohttps://github.com/geshan/ghost-google-cloud-run.git)
